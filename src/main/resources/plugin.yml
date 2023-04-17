@@ -1,0 +1,12 @@
+name: NofirePlugin
+version: '${project.version}'
+main: com.github.minto0032.nofireplugin.NofirePlugin
+api-version: 1.19
+authors: [ minto0032 ]
+description: プレイヤーの半径2マスに火がつかなくなるプラグイン
+
+commands:
+  NofirePlugin:
+    description: 他プレイヤーの周りに火がつけられなくなる
+    usage: エラー発生
+    permission: op
